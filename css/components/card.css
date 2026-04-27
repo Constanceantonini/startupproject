@@ -1,0 +1,36 @@
+/* Container for all the cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Individual card style */
+.card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  margin: 10px;
+  flex-basis: 350px;
+  flex-grow: 1;
+}
+
+/* Image inside the card */
+.card img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Title inside the card */
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
